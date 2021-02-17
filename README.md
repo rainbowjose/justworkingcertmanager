@@ -1,13 +1,9 @@
 # cert-manager
 
-`annotations:
-     #nginx.ingress.kubernetes.io/configuration-snippet: |
-     #  try_files $uri /index.html index.html;
-     #nginx.ingress.kubernetes.io/enable-opentracing: "true"
-     #nginx.ingress.kubernetes.io/use-regex: "true"
-     kubernetes.io/ingress.class: "nginx"
-     cert-manager.io/cluster-issuer: letsencrypt-prod
-`
+annotations:
+  kubernetes.io/ingress.class: "nginx"
+  cert-manager.io/cluster-issuer: letsencrypt-prod
+
 
 ## Prerequisites
 
