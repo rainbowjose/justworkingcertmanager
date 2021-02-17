@@ -1,8 +1,9 @@
 # cert-manager
-
+```
 annotations:
   kubernetes.io/ingress.class: "nginx"
   cert-manager.io/cluster-issuer: letsencrypt-prod
+```
 
 
 ## Prerequisites
