@@ -1,4 +1,9 @@
 # cert-manager
+
+```
+helm install cert-manager . -n cert-manager
+```
+
 ```
 kubectl apply -f issuer.yaml
 ```
